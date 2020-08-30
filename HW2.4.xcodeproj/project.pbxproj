@@ -13,6 +13,7 @@
 		658AA38724F8F39C002F5E48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658AA38524F8F39C002F5E48 /* Main.storyboard */; };
 		658AA38924F8F3A3002F5E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 658AA38824F8F3A3002F5E48 /* Assets.xcassets */; };
 		658AA38C24F8F3A3002F5E48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 658AA38A24F8F3A3002F5E48 /* LaunchScreen.storyboard */; };
+		659B7D1024FB8A8200037729 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659B7D0F24FB8A8200037729 /* MainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		658AA38824F8F3A3002F5E48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		658AA38B24F8F3A3002F5E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		658AA38D24F8F3A3002F5E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		659B7D0F24FB8A8200037729 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				658AA38124F8F39C002F5E48 /* SceneDelegate.swift */,
 				658AA38324F8F39C002F5E48 /* ViewController.swift */,
 				658AA38524F8F39C002F5E48 /* Main.storyboard */,
+				659B7D0F24FB8A8200037729 /* MainTabBarController.swift */,
 				658AA38824F8F3A3002F5E48 /* Assets.xcassets */,
 				658AA38A24F8F3A3002F5E48 /* LaunchScreen.storyboard */,
 				658AA38D24F8F3A3002F5E48 /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				658AA38424F8F39C002F5E48 /* ViewController.swift in Sources */,
 				658AA38024F8F39C002F5E48 /* AppDelegate.swift in Sources */,
+				659B7D1024FB8A8200037729 /* MainTabBarController.swift in Sources */,
 				658AA38224F8F39C002F5E48 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.seopeak.HW2-4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.seopeak.HW2-4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
