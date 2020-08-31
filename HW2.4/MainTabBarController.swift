@@ -20,7 +20,7 @@ class MainTabBarController: UIViewController {
         guard let login = self.login else { return }
         welcomeLabel.text = "Welcome, \(login)"
     }
-    
+    ///
 
     /*
     // MARK: - Navigation
